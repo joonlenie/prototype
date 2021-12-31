@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="myfile.js"></script>
+  <title> main page </title>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="topnav">
+      <!-- LOGO -->
+      <a href="#"><img id="responsive-img" src="https://www.ibighit.com/images/bts/logo.png" alt="logo"></a>
+      <!-- //LOGO -->
+      <!-- MENU -->
+      <nav class="nav">
+        <div id="dropdown-navbtn">
+          <span class="material-icons" style="font-size:40px;color:white;padding-bottom:10px;justify-content:center;">menu</span>
+        </div>
+        <div class="dropdown-navcontent">
+          <a href="#"> Home </a>
+          <a href="#"> Hottest </a>
+          <a href="#"> All lesson </a>
+          <a href="#"> Survey </a>
+          <a href="#"> About us </a>
+          <a href="#">Language
+            <span>
+              <a href="#"> ENG </a>
+              <a href="#"> KHM </a></span>
+          </a>
+        </div>
+      </nav>
+    <!-- MENU -->
+    <!-- SEARCH -->
+      <div class="openBtn" onclick="openSearch()">
+        <button type="open"><i class="material-icons" style="font-size:45px;color:white;"> search </i></button></div>
+      <div id="myOverlay" class="overlay">
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay"> x </span>
+        <div class="overlaycontent">
+          <form action="action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="material-icons" style="font-size: 24px;">search</i></button>
+          </form>
+        </div>
+       </div>
+    <!-- //SEARCH -->
+    </div>
+</header>
+  <!-- //HEADER -->
+  <!-- CONTENT -->
+<main>
+  <section>
+    <div id="1" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#1" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#1" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#1" data-bs-slide-to="2"></button>
+        </div>
+     <div class="carousel-inner">
+       <div class="carousel-item active">
+         <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F14%2F2020%2F09%2F09%2F090920-namjoon-suits-birthday-style-01.jpg" alt="nalen" class="d-block w-100">
+           <div class="carousel-caption">
+             <h3>molika</h3>
+               <p>We had such a great time in love!</p>
+           </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://en.kepoper.com/wp-content/uploads/2020/12/nct-haechan-profile-4-scaled-e1607309986292-758x526.jpg" alt="molika" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+        <img src="https://kpopping.com/documents/ea/1/MIN_7213_.webp" alt="monika" class="d-block w-100">
+        </div>
+     </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#1" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#1" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+  </section>
+  <section class="introus">
+    <p style="color:#FFCB00;font-family:fantasy;font-size:35px;text-align:center;padding-top:20px;padding-left:35px;"> A COLLABORATION BETWEEN </p>
+    <figure>
+     <div class="logopic">
+      <img id="e2stemlogo" src="http://e2stem.org.kh/wp-content/themes/e2stem-child/images/e2stem-logo.png" alt="E2STEM Education Cambodia">
+      <p style="color:white;font-size:100px;">&</p>
+      <img id="greenladylogo" src="https://static.wixstatic.com/media/a32a53_d929018ce9d040a984377c7c994d0820~mv2.png/v1/fill/w_281,h_367,al_c,q_85,usm_0.66_1.00_0.01/4-01.webp" alt="Green Lady Cambodia"></div>
+    <figcaption> E2STEM Education and Green Lady Cambodia </figcaption>
+      <p style="color:#FFCB00;font-family:fantasy;font-size:35px;text-align:center;padding-top:20px;padding-left:35px;padding-bottom:20px;"> Specially brought all of this to you</p>
+    </figure>
+ <!-- LESSON HIGHLIGHT -->
+   </section>
+    <h1> WELCOME TO OUR HIGHLIGHT's WORLD </h1>
+  <section class="grid">
+  <article>
+    <img id="lessonimage" src="https://64.media.tumblr.com/e2ec25073784ebe899fb168499b7f4b9/ca4aa5e6f4525280-d8/s1280x1920/733121b353afcd827455706065b0c968fe770ad2.jpg" alt="Sample Photo">
+    <div class="text1">
+      <h2> Seamlessly visualize quality</h2>
+      <p> Collaboratively administrate empowered markets via plug and play networks. </p>
+      <button> Here's why </button>
+    </div>
+    </article>
+    <article>
+      <img id="lessonimage" src="https://img.buzzfeed.com/buzzfeed-static/static/2019-09/21/15/enhanced/6948d9f67b75/original-1080-1569080680-2.jpg" alt="Sample Photo">
+      <div class="text2">
+        <h2> Completely Synergize </h2>
+        <p> Dramatically engage seamlessly visualize quality intellectual captial without superior collaboration and idea=sharing.</p>
+        <button> Here's how</button>
+      </div>
+    </article>
+    <article>
+      <img id="lessonimage" src="#" alt="samplephoto">
+      <div class="text3">
+        <h2> Why why </h2>
+        <p> wanna know why? stop there first, hover over it, click it</p>
+        <button> Here's why </button>
+      </div>
+     </article>
+    <article>
+      <img id="lessonimage" src="#" alt="Sample Photo">
+      <div class="text4">
+        <h2> dskflj dkslfjs </h2>
+        <p> what should i write? give me some idea</p>
+        <button> click here then </button>
+      </div>
+    </article>
+    <article>
+      <img id="lessonimage" src="#" alt="Sample Photo">
+      <div class="text">
+        <h2> sjdklfs lkd </h2>
+        <p> djksldjfld </p>
+        <button> Let's go </button>
+      </div>
+    </article>
+  </section>
+ <!-- //LESSON HIGHLIGHT END -->
+</main>
+  <!-- //CONTENT -->
+  <!-- FOOTER -->
+ <footer class="footer">
+    <span style="font-size: 80px;">eattjdsjafksa fld fls sld jfsdasdlsd </span>
+ </footer>
+  <!-- //FOOTER END -->
+</body>
+</html>
